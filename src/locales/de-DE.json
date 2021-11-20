@@ -322,19 +322,19 @@
 			"title": "✅ Ticket in Besitz genommen"
 		},
 		"closed": {
-			"description": "Dieses Ticket wurde geschlossen.\nDieser Kanal wird in 5 Sekunden gelöscht.",
+			"description": "Dieses Ticket wurde geschlossen.\nDieser Kanal kann jetzt gelöscht werden.",
 			"title": "✅ Ticket geschlossen"
 		},
 		"closed_by_member": {
-			"description": "Dieses Ticket wurde von %s geschlossen.\nDieser Kanal wird in 5 Sekunden gelöscht.",
+			"description": "Dieses Ticket wurde von %s geschlossen.\nDieser Kanal kann jetzt gelöscht werden.",
 			"title": "✅ Ticket geschlossen"
 		},
 		"closed_by_member_with_reason": {
-			"description": "Dieses Ticket wurde von %s geschlossen: `%s`\nDieser Kanal wird in 5 Sekunden gelöscht.",
+			"description": "Dieses Ticket wurde von %s geschlossen: `%s`\nDieser Kanal kann jetzt gelöscht werden.",
 			"title": "✅ Ticket geschlossen"
 		},
 		"closed_with_reason": {
-			"description": "Dieses Ticket wurde geschlossen: `%s`\nDieser Kanal wird in 5 Sekunden gelöscht.",
+			"description": "Dieses Ticket wurde geschlossen: `%s`\nDieser Kanal kann jetzt gelöscht werden.",
 			"title": "✅ Ticket geschlossen"
 		},
 		"member_added": {
