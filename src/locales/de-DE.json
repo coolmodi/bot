@@ -15,15 +15,15 @@
 	"commands": {
 		"add": {
 			"description": "Füge einen Benutzer zum Ticket hinzu",
-			"name": "hinzufügen",
+			"name": "add",
 			"options": {
 				"member": {
 					"description": "Das Mitglied, das dem Ticket hinzugefügt werden soll",
-					"name": "Mitglied"
+					"name": "member"
 				},
 				"ticket": {
 					"description": "Das Ticket, zu dem das Mitglied hinzugefügt werden soll",
-					"name": "Ticket"
+					"name": "ticket"
 				}
 			},
 			"response": {
@@ -51,11 +51,11 @@
 			"options": {
 				"add": {
 					"description": "Füge ein Mitglied oder eine Rolle der Blacklist hinzu",
-					"name": "hinzufügen",
+					"name": "add",
 					"options": {
 						"member_or_role": {
 							"description": "Mitglied oder Rolle der Blacklist hinzufügen",
-							"name": "Nutzer_oder_Rolle"
+							"name": "member_or_role"
 						}
 					}
 				},
@@ -65,13 +65,13 @@
 					"options": {
 						"member_or_role": {
 							"description": "Der Nutzer oder die Rolle zum Entfernen von der Blacklist",
-							"name": "Nutzer_oder_Rolle"
+							"name": "member_or_role"
 						}
 					}
 				},
 				"show": {
 					"description": "Zeige die Nutzer und Rollen in der Blacklist",
-					"name": "zeigen"
+					"name": "show"
 				}
 			},
 			"response": {
@@ -114,7 +114,7 @@
 		},
 		"close": {
 			"description": "Schließe einen Ticket-Kanal",
-			"name": "schließen",
+			"name": "close",
 			"response": {
 				"closed": {
 					"description": "Das Ticket #%s wurde geschlossen.",
@@ -166,7 +166,7 @@
 		},
 		"help": {
 			"description": "Zeige alle Befehle die Sie benutzen dürfen, oder mehr Informationen zu einem Befehl",
-			"name": "Hilfe",
+			"name": "help",
 			"response": {
 				"list": {
 					"description": "Die Befehle die Sie benutzen dürfen, sind aufgelistet. Für mehr Informationen über einen Befehl, tippen Sie `{prefix}help [command]`. Um ein Ticket zu öffnen, tippen Sie `{prefix}new [topic]`.",
@@ -179,7 +179,7 @@
 		},
 		"new": {
 			"description": "Erstelle ein neues Ticket",
-			"name": "neu",
+			"name": "new",
 			"request_topic": {
 				"description": "Bitte erklären Sie Ihr Anliegen kurz in ein paar Wörtern",
 				"title": "Ticket Anliegen"
@@ -226,7 +226,7 @@
 		},
 		"remove": {
 			"description": "Entferne einen Benutzer von einem Ticket",
-			"name": "Entfernen",
+			"name": "remove",
 			"response": {
 				"no_member": {
 					"description": "Bitte nennen Sie den Benutzer den Sie entfernen möchten.",
@@ -274,7 +274,7 @@
 		},
 		"survey": {
 			"description": "Umfragen-Ergebnisse ansehen",
-			"name": "Umfrage",
+			"name": "survey",
 			"response": {
 				"list": {
 					"title": "📃 Umfragen"
@@ -283,7 +283,7 @@
 		},
 		"tag": {
 			"description": "Benutzen Sie einen 'Tag' als Antwort",
-			"name": "Tag",
+			"name": "tag",
 			"response": {
 				"error": "❌ Fehler",
 				"list": {
@@ -298,7 +298,7 @@
 		},
 		"topic": {
 			"description": "Ändern Sie das Anligen Ihres Tickets",
-			"name": "Thema",
+			"name": "topic",
 			"response": {
 				"changed": {
 					"description": "Das Anliegen dieses Tickets wurde erfolgreich geändert.",
